@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <title>Under construction</title>
+    <script src="https://kit.fontawesome.com/51dd29b670.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <main>
+        <div class="background">
+            <img class="blot1" src="img/blot1.png" alt="клякса" aria-hidden="true">
+            <img class="blot2" src="img/blot2.png" alt="клякса" aria-hidden="true">
+        </div>
+        <div class="wrapper">
+            <a href="index.html">
+                <img class="logo" src="img/Group.png" alt="logo">
+            </a>
+            <h1 class="title">under construction</h1>
+            <p>We're making lots of improvements and will be back soon</p>
+
+            <div class="countdown-wrapper">
+                <div class="countdown" id="countdown">
+                    <div class="time">
+                        <h2 id="days">00</h2>
+                        <div class="time__text days"></div>
+                    </div>
+                    <div class="time__separator">:</div>
+                    <div class="time">
+                        <h2 id="hours">00</h2>
+                        <div class="time__text hours"></div>
+                    </div>
+                    <div class="time__separator">:</div>
+                    <div class="time">
+                        <h2 id="minutes">00</h2>
+                        <div class="time__text minutes"></div>
+                    </div>
+                    <div class="time__separator">:</div>
+                    <div class="time">
+                        <h2 id="seconds">00</h2>
+                        <div class="time__text seconds"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p>Check our event page when you wait:</p>
+            <a class="button" href="https://github.com/natalliakurbat">Go to the event
+                    <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <form>
+            <input type="email" name="email" id="userEmail" placeholder="Enter your Email and get notified">
+            <a href="#popup" type="submit" id="userSubmit" class="popup-link">
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </form>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close"><i class="fa-solid fa-xmark"></i></a>
+                <div class="popup__title">SUCCESS!</div>
+                <div class="popup__text">You have successfully subscribed to the email newsletter</div>
+                <button class="popup__close button__close">Close</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
